@@ -1384,3 +1384,12 @@ Request URL: /js/bootstrap-theme.min.js
 Stack Trace:
 #0 /var/www/landlord/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-06-04 05:47:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/landlord/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
